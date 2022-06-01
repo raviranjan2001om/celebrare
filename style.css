@@ -1,0 +1,236 @@
+body{
+    /* /* font-family: questa, serif; */
+    font-family: Georgia, serif;
+/* font-size: 30px; */
+letter-spacing: 0px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 400;
+font-style: italic;
+font-variant: normal;
+}
+.nav-item{
+    font-size: 23px;
+}
+
+.container{
+    border-radius: 60px; 
+    background-color: rgb(255, 255, 255);
+    border : 1px solid black; 
+    box-shadow: 2px 2px 5px #d0d0d0;
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    padding : 70px 20px;
+    margin: 125px 60px 0 60px;
+    width: auto;
+}
+
+.carouselDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    width : 50%;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width : 25%;
+}
+
+.carousel-item img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+.back-img{
+    height: 350px; 
+    width: 90%; 
+    background-image:url(/ASSETS/Background.jpg);
+    border-radius: 60px; 
+    display: block;
+    margin: 60px auto; 
+    object-fit: contain;
+    position: relative;
+    text-align: center;
+    color: white;
+    object-fit: contain;
+  object-position: center;
+}
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+
+.back {
+    position: absolute;
+    object-fit: fill;
+    width: 200px;
+}
+  
+
+.circle{
+    border-radius: 50%;
+    border: 45px solid rgb(236, 236, 236);
+    height: 175px;
+    width: 175px;
+    background-color: white;
+    float: left; filter: blur(20px);
+    position: relative;
+    margin: 0;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    margin-top: 70px;
+    margin-bottom: -50px;
+    transform: translate(-50%, -50%)
+}
+
+.btn{
+    width : 100%;
+    padding: 20px 30px; 
+    border-radius: 30px; 
+    color: white; 
+    background-color: black;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    margin-top : 30px;
+}
+
+.bottomContainer{
+    border-radius: 50px; 
+    border-style: solid;
+    border-width: 1px; 
+    border-color: rgb(16, 17, 17); 
+    box-shadow: 4px 4px 6px #d0d0d0;
+    display : flex;
+    justify-content : space-around;
+    align-self:center;
+    padding : 30px 10px;
+    margin : 0px 132px 90px 132px;
+}
+
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features{
+    margin-top : 400px;
+}
+.textContainer{
+    width: 350px;
+}
+.para{
+    font-size: 30px;
+}
+
+@media screen and (max-width : 768px){
+    .container{
+        border-radius: 40px; 
+        flex-direction:  column;
+        padding : 50px 30px;
+        margin: 100px 15px;
+    }
+    .nav-item{
+        font-size: 20px;
+    }
+    .back-img{
+        height: 200px;
+        border-radius: 35px;
+    }
+    .centered{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .carouselDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:white;
+        width : 100%;
+    }
+    
+    .textContainer{
+        width : 100%;
+        display: flex;
+    }
+
+    .card-title{
+        margin-top : 30px;
+    }
+
+    .btn{
+        width : 80%;
+        padding: 20px 30px; 
+        border-radius: 40px; 
+        color: white; 
+        background-color: black;
+        display : flex;
+        justify-content : center;
+        align-items : center;
+        margin : 30px auto 0 auto;
+    }
+
+    .bottomContainer{
+        border-radius: 20px; 
+        border-style: solid;
+        margin : 0 38px 100px 38px;
+        border-width: 1px; 
+        border-color: rgb(16, 17, 17); 
+        box-shadow: 4px 4px 6px #d0d0d0;
+        display : flex;
+        flex-direction: column;
+        justify-content : space-around;
+        align-self:center;
+        padding : 30px 10px;
+    }
+    
+    .innerContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .para{
+        font-size: 23px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .features{
+        margin-top : 900px;
+    }
+    .circle{
+        border-radius: 50%;
+        border: 45px solid rgb(206, 206, 206);
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        float: left; filter: blur(20px);
+        position: relative;
+        margin: 0;
+        top: 10%;
+        left: 50%;
+        margin-right: 40px;
+        margin-left: 20px;
+        margin-top: 70px;
+        margin-bottom: -50px;
+        transform: translate(-50%, -50%)
+    }
+    
+}
